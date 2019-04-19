@@ -1,0 +1,839 @@
+﻿
+/*En Üst taraf mail ve telefon*/
+
+body {
+    background-color:#fff;
+    margin:0;
+}
+
+::selection {
+    background: #FF0000;
+    color: #FFFFFF;
+}
+::-moz-selection {
+    background: #FF0000;
+    color: #FFFFFF;
+}
+
+#üstiletisim {
+    background-color:#2d2f3c;
+    height:30px;
+    box-shadow:0 4px 0 0 #d7fffb;
+}
+
+#telefon {
+    color:#e0e0e0;
+    font-size:12px;
+    font-family:Arial;
+    width:95px;
+    height:30px;
+    margin-left:900px;
+    padding-top:14px;
+    float:left;
+}
+
+#url {
+    color:#e0e0e0;
+    font-size:12px;
+    font-family:Arial;
+    width:160px;
+    height:30px;
+    padding-top:14px;
+    float:left;
+    margin-left:10px;
+}
+
+/*En Üst taraf mail ve telefon*/
+
+
+/*Logo kısmı- logo ve menu*/
+
+#logo {
+    height:75px;
+    margin-top:3px;
+    border-bottom: solid 2px #00b1ff;
+}
+
+#logoyazi {
+    width:240px;
+    height:51px;
+    margin-left:50px;
+    background-color:#93fff5;
+    color:#2d2f3c;
+    font-family:'Lucida Sans Unicode';
+    font-size:20px;
+    padding-top:23px;
+    padding-left:65px;
+    float:left;
+    margin-top:-10px;
+    margin-right:15px;
+}
+
+#menudiv {
+    float:left;
+    margin-top:10px;
+}
+
+/*Search (arama yeri)*/
+
+#searchdiv {
+    width:210px;
+    height:30px;
+    float:left;
+    margin-top:12px;
+    border:solid 1px #2d2f3c;
+}
+
+.searchtxt {
+    width: 209px;
+    height: 25px;
+    border: 1px solid #fff;
+    font-size:14px;
+    font-weight:bold;
+    color:#6d6d6d;
+    font-family:Arial 'Lucida Sans Unicode';
+    margin-left:2px;
+}
+
+.searchtxt:focus {
+    outline:none;
+}
+
+/*Search Button (Arama Butonu)*/
+
+#srchbtndiv {
+    width:34px;
+    height:32px;
+    float:left;
+    margin-top:12px;
+    padding-right:-10px;
+}
+.srchbtn {
+    border:solid 1px #2a2a2a;
+    background-color:#2a2a2a;
+    height:32px;
+    color:#fff;
+}
+
+/*Search Button (Arama Butonu)*/
+
+
+/*Ana Resim Koyuldu div.anaresim*/
+
+#anaresim {
+    height:465px;   
+    background-image:url(../images/bg.jpg);
+    padding-top:210px;
+}
+
+#logotntimyzi {
+    height:190px;
+    width:590px;
+    margin-left:500px;  
+    color:#2a2a2a;
+    font-family:Arial;
+    font-size:40px;  
+    font-weight:bold;
+}
+
+/*logo tntimyzibutton*/
+
+.Tasarimlarimiz {
+    width:210px;
+    height:50px;
+    border-radius:30px;
+    background-color:#ff8816;
+    color:#fff;
+    font-weight:bold;
+    border:solid 2px #2d2f3c;
+    float:left;
+    margin-right:50px;
+    transition:background-color ease 0.5s;
+}
+
+.Tasarimlarimiz:hover {
+    background-color:#2d2f3c;
+    color:#fff;
+    border:solid 2px #e0e0e0;
+}
+
+.Tasarimlarimiz:focus {
+    outline:none;
+}
+
+/*tasarımlar buton style*/
+
+/*hakkında buton style*/
+
+.Hakkinda {
+    width:210px;
+    height:50px;
+    border-radius:30px;
+    background-color:#ff8816;
+    color:#fff;
+    font-weight:bold;
+    border:solid 2px #2d2f3c;
+    float:left;
+    transition:background-color ease 0.5s;
+}
+
+.Hakkinda:hover {
+    background-color:#2d2f3c;
+    color:#fff;
+    border:solid 2px #e0e0e0;
+}
+
+.Hakkinda:focus {
+    outline:none;
+}
+
+/*Hakkında bölümü*/
+
+#hakkinda {
+    height:520px;
+    background-color:#fdfdfd;
+    padding-top:40px;
+}
+
+#hakndabaslik {
+    width:196px;
+    height:48px;
+    color:#2d2f3c;
+    font-weight:bold;
+    font-size:40px;
+    font-family:Candara;    
+    margin-left:580px;   
+}
+
+.hakndabslktxt {
+    text-shadow:0px 3px 7px #1d2f3c; 
+}
+
+/*Hakkında içerik*/
+
+#hkndaadminrsm {
+    width:129px;
+    height:135px;
+    margin-left:145px;
+    margin-top:58px;
+    float:left;
+    border-radius:160px;
+    border:solid 7px #2d2f3c;
+}
+
+#admnimage {
+    border-radius:160px;
+}
+
+
+/*admin in isminin divi*/
+
+#adminisim {
+    width:200px;
+    height:43px;
+    margin-left:125px;
+    margin-top:15px;
+    color:#00b1ff;
+    font-family:Calibri;
+    font-size:35px;
+}
+
+/*admin hakkında bilgi verildiği div*/
+
+#bilgi {
+    margin-left:10px;
+    margin-top:10px;
+    width:474px;
+    height:54px;
+    font-size:17px;
+    font-family:Adobe Caslon Pro;
+    color:#2d2f3c;
+    float:left;
+}
+
+
+/*hakkında sayfasında sağ taraftaki tanıtım resmi*/
+
+#hkkindablgirsm {
+    width:540px;
+    height:205px;
+    margin-left:380px;
+    float:left;
+    margin-top:20px;
+    background-image:url(../images/hakkinda/hakndarsm.jpg);
+    border:solid 1px #2d2f3c;
+    box-shadow:0 2px 0 0 #000;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(79,79,79,0.65);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(79,79,79,0.65);
+    box-shadow: 0px 5px 10px 0px rgba(79,79,79,0.65);
+}
+
+/*hakkında resmindeki alt bilgi. açıklama*/
+
+#resmbilgi {
+    width:670px;
+    height:209px;
+    margin-left:675px;
+    margin-top:-68px;
+    float:left;    
+    font-family:sans-serif;
+    font-weight:bold;
+    color:#2d2f3c;
+    font-size:14px;
+}
+/*hakkında resmindeki alt bilgi. açıklama*/
+
+/*animasyon ile yukarı buton stil kodu*/
+
+#top {
+    bottom: 5px;
+    bottom: 20px;
+    display: none;
+    height: 100px;
+    position: fixed;
+    right: 20px;
+
+}
+
+/*Mekan Tasarımları Bölümü*/
+
+#mekantasarimlari {
+    height:700px;
+    padding-top:13px;
+    width: 1469px;
+}
+
+#mkntsrmbaslik {
+    width:321px;
+    height:50px;
+    margin-bottom:20px;
+    margin-left:520px;
+    color:#2d2f3c;
+    font-weight:bold;
+    font-size:40px;
+    font-family:Candara;   
+    text-shadow:0px 3px 7px #1d2f3c; 
+}
+
+/*Mekan Tasarımları Bölümü*/
+
+/*Galeri Bölümü*/
+
+#galeri {
+    height:660px;
+    background-color:#fdfdfd;
+}
+
+#galeribaslik {
+    width:105px;
+    height:48px;  
+    color:#2d2f3c;
+    font-weight:bold;
+    font-size:40px;
+    font-family:Candara;   
+    text-shadow:0 3px 0 #fff;
+    margin-left:585px;
+    margin-top:50px;    
+    text-shadow:0px 3px 7px #1d2f3c; 
+}
+
+
+#galerislider {
+    height:500px;
+    margin-top:40px;
+}
+
+
+
+
+/*İletişim Bölümü*/
+
+#contact {
+    height:675px;
+    background-color:#fff;
+}
+
+#contactbaslik {
+    width:175px;
+    height:53px;
+    border-bottom:solid 1px #878787;
+    color:#2d2f3c;
+    font-weight:bold;
+    font-size:40px;
+    font-family:Candara;   
+    text-shadow:0 3px 0 #e0e0e0;
+    margin-left:585px;
+    margin-top:10px;    
+    text-align:center;
+    text-shadow:0px 3px 3px #1d2f3c; 
+}
+
+#iletformbaslik {
+    width:1200px;
+    height:40px;    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+
+#iletisimformbaslik {
+    width:190px;
+    height:40px;
+    color:#2d2f3c;
+    font-size:30px;
+    font-family:Candara;     
+    float:left;
+    margin-left:130px;
+    text-shadow:0px 3px 7px #1d2f3c; 
+}
+
+#adressbaslik {
+    width:100px;
+    height:40px;
+    color:#2d2f3c;
+    font-size:30px;
+    font-family:Candara;     
+    float:left;
+    margin-left:300px;
+}
+
+#frmiletisim {
+    width:410px;
+    height:480px;
+    margin-left:206px;
+    margin-top:26px;
+    float:left;
+}
+
+#isim {
+    width:50px;
+    height:25px;
+    font-size:17px;
+    color:#1d2f3c;
+    text-shadow:0px 2px 2px #1d2f3c; 
+}
+
+.isimtxt {
+    width:405px;
+    outline:none;
+    height:28px; 
+    font-size:15px; 
+    font-family:'Adobe Garamond Pro'; 
+    color:#2e2e2e; 
+    border:solid 1px #d4d4d4;
+    border-radius:3px;
+}
+
+.isimtxt:hover {
+    width:405px;
+    outline:none;
+    height:28px; 
+    font-size:15px; 
+    font-family:'Adobe Garamond Pro'; 
+    color:#2e2e2e; 
+    border:solid 1px #979797;
+    border-radius:3px;
+}
+
+
+.mesajtxt {
+    width:405px;
+    outline:none;
+    height:120px; 
+    font-size:15px; 
+    font-family:'Adobe Garamond Pro'; 
+    color:#2e2e2e; 
+    border:solid 1px #d4d4d4;
+    border-radius:3px;
+}
+
+.mesajtxt:hover {
+    width:405px;
+    outline:none;
+    height:120px; 
+    font-size:15px; 
+    font-family:'Adobe Garamond Pro'; 
+    color:#2e2e2e; 
+    border:solid 1px #979797;
+    border-radius:3px;
+}
+
+
+#mail {
+    width:50px;
+    height:25px;
+    font-size:17px;
+    color:#1d2f3c;
+    margin-top:4px;
+    text-shadow:0px 2px 2px #1d2f3c; 
+}
+
+#konu {
+    width:50px;
+    height:25px;
+    font-size:17px;
+    color:#1d2f3c;
+    margin-top:4px;
+    text-shadow:0px 2px 2px #1d2f3c; 
+}
+
+#mesaj {
+    width:50px;
+    height:25px;
+    font-size:17px;
+    color:#1d2f3c;
+    margin-top:4px;
+    text-shadow:0px 2px 2px #1d2f3c; 
+}
+
+
+
+#adres {
+    width:410px;
+    height:480px;
+    margin-left:206px;
+    margin-top:26px;
+    margin-left:78px;
+    float:left;
+    font-size:14px;
+    color:#6b6b6b;
+}
+
+.gnderbtnn {
+    width:85px; 
+    outline:none; 
+    border-radius:3px; 
+    height:34px; 
+    margin-left:325px; 
+    margin-top:3px; 
+    color:#2e2e2e; 
+    font-weight:bold; 
+    border:solid 1px #00dbd4; 
+    background-color:#00dbd4;
+    transition:background-color ease 0.5s;
+}
+
+.gnderbtnn:hover {
+    width:85px; 
+    outline:none; 
+    border-radius:3px; 
+    height:34px; 
+    margin-left:325 px; 
+    margin-top:3px; 
+    color:#00dbd4; 
+    font-weight:bold; 
+    border:solid 2px #00dbd4; 
+    background-color:#2e2e2e;
+}
+
+/*İletişim Bölümü the*/
+
+
+
+
+
+/*Taban Kısmı Start*/
+
+#footer {
+    height:340px;
+    background-color:#000;
+    padding-top:35px;
+}
+
+#footermenu1 {
+    width:180px;
+    height:200px;
+    margin-left:200px;
+    color:#e0e0e0;
+    font-size:13px;
+    float:left;
+}
+
+#menubaslik1 {
+    width:20px;
+    height:30px;
+    color:#fff;
+    font-size:15px;
+}
+
+#anasayfa {
+    width:100px;
+    height:15px;
+    color:#cacaca;
+}
+
+#footerhakkinda {
+    width:100px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#mkntsrmleri {
+    width:120px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#footergaleri {
+    width:100px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#iletisimfooter {
+    width:100px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+
+
+#footermenu2 {
+    width:180px;
+    height:180px;
+    margin-left:90px;
+    color:#e0e0e0;
+    font-size:13px;
+    float:left;
+}
+
+#menubaslik2 {
+    width:20px;
+    height:30px;
+    color:#fff;
+    font-size:15px;
+}
+
+#icerik1 {
+    width:200px;
+    height:15px;
+    color:#cacaca;
+    margin-top:15px;
+}
+    
+#icerik2 {
+    width:160px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#icerik3 {
+    width:160px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#icerik4 {
+    width:160px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#icerik5 {
+    width:160px;
+    height:15px;
+    margin-top:5px;
+    color:#cacaca;
+}
+
+#sosyal1 {
+    width:150px;
+    height:160px;
+    float:left;
+    margin-top:10px;
+}
+
+#sosyal2 {
+    width:150px;
+    height:160px;
+    float:left;
+    margin-top:10px;
+}
+
+
+#fotermenu3 {
+    width:380px;
+    height:200px;
+    margin-left:90px;
+    color:#e0e0e0;
+    font-size:13px;
+    float:left;
+}
+
+#facebook {
+    width:32px;
+    height:32px;
+    margin-left:10px;
+    float:left;
+}
+
+#facersm {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+}
+
+
+#facersm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#00b1ff;
+    text-decoration: underline;
+}
+
+#google {
+    width:32px;
+    height:32px;
+    margin-left:10px;
+    float:left;
+}
+
+#googlersm {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+}
+
+#googlersm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#ff3131;
+    text-decoration: underline;
+}
+
+#link {
+    width:32px;
+    height:32px;
+    margin-left:10px;
+    float:left;
+}
+
+#linkrsm {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+}
+
+#linkrsm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#ff8816;
+    text-decoration: underline;
+}
+
+#twitter {
+    width:32px;
+    height:32px;
+    float:left;
+}
+
+#twitrsm {
+    width:62px;
+    height:15px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+    margin-left:7px;
+}
+
+#twitrsm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#00b1ff;
+    text-decoration: underline;
+}
+
+#youtube {
+    width:32px;
+    height:32px;
+    float:left;
+}
+
+#youtubersm {
+    width:62px;
+    height:15px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+    margin-left:7px;
+}
+
+#youtubersm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#ff3131;
+    text-decoration: underline;
+}
+
+#blog {
+    width:32px;
+    height:32px;
+    float:left;
+}
+
+#blogrsm {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#979797;
+}
+
+#blogrsm:hover {
+    width:62px;
+    height:15px;
+    margin-left:7px;
+    margin-top:9px;
+    float:left;
+    color:#ff8816;
+    text-decoration: underline;
+}
+
+
+/*Footer kısmının horizontal çizgi kısmı*/
+
+
+
+
+/*Çizgi kısmı bitti*/
+
+#tabanbilgi {
+    width:350px;
+    height:11px;
+    color:#e0e0e0;
+    margin-left:135px;
+    margin-top:8px;
+    font-size:11px;
+}
